@@ -30,62 +30,32 @@ nlu:
     - bye bye
     - see you later
 
-- intent: affirm
+- intent: find_time_zone
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - can you tell the time?
+    - could you tell me the time?
+    - i need you to find a time zone
+    - can you find me a time zone?
+    - what time is it?
 
-- intent: deny
+- intent: find_time_zone_for_location
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - what is the time zone on London?
+    - time zone of Lisbon
+    - do you know the time zone of Berlin
+    - i need to know the time zone of Mombai
 
-- intent: mood_great
+- intent: city_info
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - London
+    - San Francisco
+    - Toronto
+    - New Delhi
+    - Auckland
+    - Oslo
 
-- intent: mood_unhappy
+- intent: thanks
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - thank you
+    - thanks
+    - great, thanks
