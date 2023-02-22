@@ -44,6 +44,9 @@ nlu:
     - time zone of Lisbon
     - do you know the time zone of Berlin
     - i need to know the time zone of Mombai
+    - Oslo time zone
+    - Sousse time zone
+    - what is the time in Prague
 
 - intent: city_info
   examples: |
