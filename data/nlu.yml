@@ -40,22 +40,24 @@ nlu:
 
 - intent: find_time_zone_for_location
   examples: |
-    - what is the time zone on London?
-    - time zone of Lisbon
-    - do you know the time zone of Berlin
-    - i need to know the time zone of Mombai
-    - Oslo time zone
-    - Sousse time zone
-    - what is the time in Prague
+    - what is the time zone on [London](city)?
+    - time zone of [Lisbon](city)
+    - do you know the time zone of [Berlin](city)
+    - i need to know the time zone of [Mombai](city)
+    - [Oslo](city) time zone
+    - [Sousse](city) time zone
+    - what is the time in [Prague](city)
 
 - intent: city_info
   examples: |
-    - London
-    - San Francisco
-    - Toronto
-    - New Delhi
-    - Auckland
-    - Oslo
+    - [London](city)
+    - [San Francisco](city)
+    - [Toronto](city)
+    - [New Delhi](city)
+    - [Auckland](city)
+    - [Oslo](city)
+    - [Tunis](city)
+    - [Sousse](city)
 
 - intent: thanks
   examples: |
